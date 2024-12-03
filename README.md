@@ -25,7 +25,8 @@ Here you'll find:
 | Day | Puzzle 1 | Puzzle 2 |
 | --- | -------- | -------- |
 | 1   | ✅       | ✅       |
-| 2   | 🚧       | 🚧       |
+| 2   | ✅       | ✅       |
+| 3   | 🚧       | 🚧       |
 
 _(Table updates daily—stay tuned!)_
 
