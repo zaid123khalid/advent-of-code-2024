@@ -9,7 +9,9 @@ def calculate_total_distance_from_file(file_name):
     left_list.sort()
     right_list.sort()
 
-    total_distance = sum(abs(left - right) for left, right in zip(left_list, right_list))
+    total_distance = sum(
+        abs(left - right) for left, right in zip(left_list, right_list)
+    )
 
     return total_distance
 

@@ -9,6 +9,7 @@ def counter(num_list):
 
     return num_count
 
+
 def calculat_similarity_score(file_name):
     right_count = {}
     left_list, right_list = [], []
@@ -18,7 +19,7 @@ def calculat_similarity_score(file_name):
             left_list.append(left)
             right_list.append(right)
 
-    right_count = counter(right_list) 
+    right_count = counter(right_list)
 
     similarity_score = 0
     for num_left in left_list:
@@ -28,8 +29,6 @@ def calculat_similarity_score(file_name):
         else:
             similarity_score += num_left * 0
     return similarity_score
-
-
 
 
 file_name = "../input.txt"
